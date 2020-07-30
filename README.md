@@ -1,6 +1,8 @@
-# git_collaboration-dan
+# 2020/07/30: Git Collaboration
 
 Git collaboration notes
+
+## Branches
 
 - `git clone <url>`: downloads the repository from the web to your local computer
     - make sure you don't nest this command into another repository
@@ -14,6 +16,8 @@ Git collaboration notes
 - `git switch -c <branch_name>`: create and move to branch in 1 step
     - `git checkout -b <branch_name>
 
+## Pull Requests (Online Merge)
+
 - `git log --oneline --graph --decorate --all`: shows you your git history tree
     - you can look up how to set this as an git alias
 
@@ -22,4 +26,3 @@ Git collaboration notes
 - `git branch -d <branch_name>`: removes branch from your local computer
 
 - Pull request: when you push a branch to the remote, and merge the branch in the online interface
-
