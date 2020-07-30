@@ -59,4 +59,115 @@
    76  git diff master
    77  git diff 10d06c0
    78  history
-
+   79  nano history.txt
+   80  git status
+   81  git add history.txt
+   82  git commit -m 'add history'
+   83  git push origin my_first_branch
+   84  # git push
+   85  git checkout master
+   86  git log --oneline --graph --decorate --all
+   87  cat README.md
+   88  git pull origin master
+   89  cat README.md
+   90  git branch -a
+   91  git log --oneline --all --graph
+   92*
+   93  git log --oneline --all --graph
+   94  git branch -a
+   95  git branch -d my_first_branch
+   96  git branch -a
+   97  git log --oneline --all --graph
+   98  # git switch -c main
+   99  git checkout -b main
+  100  git status
+  101  nano README.md
+  102  cat README.md
+  103  git status
+  104  git add README.md
+  105  git status
+  106  git commit -m "main branch + talk about branch things"
+  107  git push origin main
+  108  git push origin master
+  109  git push
+  110  git log --oneline --graph --decorate --all
+  111  git fetch --prune
+  112  git log --oneline --graph --decorate --all
+  113  git branch -d master
+  114  git branch -a
+  115  git log --oneline --graph --decorate --all
+  116  git checkout -b update_readme_title
+  117  git status
+  118  nano README.md
+  119  git status
+  120  git add README.md
+  121  git commit -m "remote date from readme title"
+  122  git log --oneline --all
+  123  git log --oneline --all --graph
+  124  git checkout main
+  125  git checkout -b add_section_headers
+  126  nano README.md
+  127  git status
+  128  git add README.md
+  129  git commit -m "fix up title and added section headers"
+  130  nano README.md
+  131  git status
+  132  git branch -a
+  133  git checkout update_readme_title
+  134  # git commit -m "stuff before moving branch"
+  135  git stash
+  136  git log --oneline --all --graph
+  137  git checkout update_readme_title
+  138  git checkout add_section_headers
+  139  cat README.md
+  140  git stash list
+  141  git stash apply
+  142  cat README.md
+  143  git log --oneline --all --graph
+  144  git status
+  145  git add README.md
+  146  git commit -m "covert date - to /"
+  147  git stash list
+  148  git stash clear
+  149  git stash list
+  150  git push origin add_section_headers
+  151  git log --oneline --all --graph
+  152  git checkout update_readme_title
+  153  git push origin update_readme_title
+  154  git checkout main
+  155  git pull origin main
+  156  git log --oneline --graph --decorate --all
+  157  git fetch --prune
+  158  git branch -d update_readme_title
+  159  git log --oneline --graph --decorate --all
+  160  git log --oneline --graph --decorate --all
+  161  git fetch --prune
+  162  git fetch --prune
+  163  git log --oneline --graph --decorate --all
+  164  git checkout add_section_headers
+  165  git rebase master
+  166  git rebase main
+  167  git rebase --about
+  168  git rebase --abort
+  169  git rebase master
+  170  git rebase main
+  171  nano README.md
+  172  git status
+  173  git add README.md
+  174  git status
+  175  git rebase --continue
+  176  git log --oneline --graph --decorate --all
+  177  cat README.md
+  178  git push origin add_section_headers
+  179  git push -f origin add_section_headers
+  180  git checkout main
+  181  git pull origin main
+  182  git fetch --prune
+  183  git branch -d add_section_headers
+  184  git log --oneline --graph --decorate --all
+  185  history
+  186  git remote add upstream git@github.com:chendaniely/2020-07-30-git_collaboration-dan.git
+  187  git remote -v
+  188  git pull upstream main
+  189  git push origin main
+  190  history
