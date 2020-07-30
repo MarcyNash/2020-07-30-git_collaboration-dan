@@ -38,6 +38,9 @@ Git collaboration notes
 - Atlassian page on git workflows: https://www.atlassian.com/git/tutorials/comparing-workflows
     - The one we covered today was mainly the "Feature Branch Workflow": https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
 
+- The atlassian page has more infor about "git flow", but this is also another top Google hit that I liked:
+  - https://nvie.com/posts/a-successful-git-branching-model/
+
 - Getting your (bash) terminal to show current path and other things:
     - Use this to create your PS1 variable: http://bashrcgenerator.com/
 
