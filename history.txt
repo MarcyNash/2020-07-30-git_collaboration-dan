@@ -1,0 +1,62 @@
+   18  mkdir git
+   19  cd git/
+   20  git clone git@github.com:chendaniely/2020-07-30-git_collaboration-dan.git
+   21  cd 2020-07-30-git_collaboration-dan/
+   22  ls
+   23  explorer .
+   24  git remote -v
+   25  nano README.md
+   26  nano README.md
+   27  git status
+   28  git diff
+   29  nano README.md
+   30  git diff
+   31  git diff
+   32  git add README.md
+   33  nano README.md
+   34  git status
+   35  git commit -m "talk about git clone"
+   36  git push origin master
+   37  ls
+   38  history
+   39  # git diff --staged
+   40  git log --oneline
+   41  git branch my_first_branch
+   42  git log --oneline
+   43  git branch -a
+   44  git checkout my_first_branch
+   45  git switch master
+   46  git switch my_first_branch
+   47  git asdf
+   48  git status
+   49  git branch -a
+   50  git branch
+   51  nano README.md
+   52  git branch -a
+   53  git log --oneline
+   54  nano README.md
+   55  git status
+   56  git add README.md
+   57  git status
+   58  git commit -m "create and move to branch"
+   59  git status
+   60  git log --oneline
+   61  git --version
+   62  cat README.md
+   63  git checkout master
+   64  git log --oneline
+   65  git log --oneline --all
+   66  git log --oneline --all --graph
+   67  git log --oneline --all --graph --decorate
+   68  cat README.md
+   69  git checkout my_first_branch
+   70  cat README.md
+   71  git push origin my_first_branch
+   72  git log --oneline --graph --all
+   73  hsitory
+   74  history
+   75  git log --oneline --all --graph
+   76  git diff master
+   77  git diff 10d06c0
+   78  history
+
