@@ -26,3 +26,21 @@ Git collaboration notes
 - `git branch -d <branch_name>`: removes branch from your local computer
 
 - Pull request: when you push a branch to the remote, and merge the branch in the online interface
+
+# Some additional notes and links
+
+- Software Carpentry notes on basic git: https://swcarpentry.github.io/git-novice/
+    - The setting up git has the commands to setup your name/email/editor: https://swcarpentry.github.io/git-novice/02-setup/index.html
+
+- Git workflow notes and commands (to paste on your wall)
+    - https://chendaniely.github.io/training_ds_r/help-faq.html
+
+- Atlassian page on git workflows: https://www.atlassian.com/git/tutorials/comparing-workflows
+    - The one we covered today was mainly the "Feature Branch Workflow": https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow
+
+- Getting your (bash) terminal to show current path and other things:
+    - Use this to create your PS1 variable: http://bashrcgenerator.com/
+
+- Show git branch in terminal:
+    - In addition you can write a function and put that in your PS1 to also show git branch
+    - https://gist.github.com/joseluisq/1e96c54fa4e1e5647940
